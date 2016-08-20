@@ -1,0 +1,100 @@
+
+
+.card {
+  border-color: $lightgray;
+  border-style: $border-style;
+  margin: 0 auto $epsilon auto;
+  max-width: $thumnail-max-width;
+  min-width: $thumnail-min-width;
+  padding: 0;
+}
+
+.card:hover {
+  box-shadow: $drop-shadow;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card header {
+  color: $gray;
+  font-family: $monospace;
+  font-size: $eta;
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card section {
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+
+.card section ul {
+  margin: 0;
+  padding: 0;
+}
+
+.card section.card-media {
+  background-color: $lightgray;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.card-media img {
+  min-height: $thumnail-min-height;
+  min-width: $thumnail-min-width;
+  max-height: $thumnail-max-height;
+  max-width: $thumnail-max-width;
+  vertical-align: middle;
+  width: auto;
+}
+
+.card-meta {
+  border-bottom: $border-width $border-style $lightgray;
+  font-size: $eta;
+  padding-bottom: 8px;
+}
+
+.card-meta i {
+  color: $gray;
+}
+
+.card-meta a {
+  color: $darkgray;
+}
+
+.card-meta a:hover {
+  color: $primary-color;
+}
+
+.card footer {
+  color: $darkgray;
+  font-family: $serif;
+  padding: 4px 8px 8px 8px;
+  text-align: left;
+}
+
+.card-title {
+  color: $gray;
+}
+
+.card-title:hover {
+  color: $primary-color;
+}
+
+.cards {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1022px) {
+  .cards {
+    max-width: 680px;
+  }
+}

@@ -1,0 +1,39 @@
+.chip {
+  border-color: $lightgray;
+  border-style: $border-style;
+  border-width: 0;
+  display: inline-block;
+  font-size: $eta;
+  font-weight: 300;
+  padding: 0 1px 1px 0;
+  margin: 0 4px;
+  line-height: $delta;
+  white-space: nowrap;
+}
+
+.chip:first-child {
+  margin-left: 0;
+}
+
+.chip:last-child {
+  margin-right: 0;
+}
+
+.chip-default {
+  border-bottom-width: $onepx;
+  color: $gray;
+}
+
+.chip a {
+  color: inherit;
+}
+
+.chip a:hover {
+  color: $black;
+}
+
+.chip-group {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 0;
+}

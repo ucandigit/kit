@@ -1,0 +1,52 @@
+.headlines {
+  list-style: none;
+  padding: 0;
+}
+
+.headline-summary p {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  color: $darkgray;
+
+}
+
+.headline {
+  margin-bottom: $zeta;
+}
+
+.headline time {}
+
+.headline-title {
+  font-family: $serif;
+  font-size: $gamma;
+  line-height: $gamma*1.4;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.headline-title a {
+  color: $black;
+}
+
+.headline-title a:hover {
+  color: $gray;
+}
+
+.headline footer {
+  font-size: $eta;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.headline footer i {
+  color: $gray;
+}
+
+.headline footer a {
+  color: $darkgray;
+}
+
+.headline footer a:hover {
+  color: $primary-color;
+}

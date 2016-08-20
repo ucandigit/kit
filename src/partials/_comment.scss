@@ -1,0 +1,62 @@
+.author-avatar {
+  display: inline-block;
+  margin-top: 2px;
+  width: 1.6rem;
+}
+
+.author-avatar img {
+  border-radius: 50%;
+  display: inline-block;
+  height: $delta;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  width: $delta;
+}
+
+.comment {}
+
+.comment-reply {
+  margin-left: 1.6rem;
+}
+
+.comment header {
+  line-height: $delta;
+  font-size: $theta;
+}
+
+.comment-info {}
+
+
+.comment-username {
+  font-family: $monospace;
+}
+
+.comment-stats {
+  color: $gray;
+}
+
+.comment-stats time,
+.comment-stats a {
+  color: $gray;
+}
+
+.comment-upvotes:hover {
+  color: $condone-color;
+}
+
+.comment-downvotes:hover {
+  color: $attention-color;
+}
+
+.comment-body {
+  margin-top: 0;
+  margin-left: 1.75rem;
+  font-size: $eta;
+  line-height: $eta*1.44;
+}
+
+.comment-body p {
+  margin-top: 0;
+}

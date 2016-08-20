@@ -1,0 +1,72 @@
+.menu  {
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu hr {
+  border: 0;
+  background-color: $secondary-color;
+  height: 4px;
+  margin: 8px 0;
+}
+
+.menu-item,
+.menu-item {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-item:hover .btn {
+  background-color: $primary-color;
+}
+
+.nested-menu {
+  border-top-right-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+  box-shadow: 4px 8px 30px -20px rgba(0, 0, 0, 1);;
+  display: none;
+  background-color: $primary-color;
+  list-style: none;
+  font-weight: 500;
+  min-width: 150px;
+  padding: 8px;
+  margin: 0;
+  position: absolute;
+  text-align: left;
+  z-index: 1;
+}
+
+.menu-item:active .nested-menu,
+.menu-item:focus .nested-menu,
+.menu-item:hover .nested-menu {
+  display: block;
+  font-size: $eta;
+  line-height: $delta;
+}
+
+.nested-menu-item {
+  padding: 0;
+}
+
+.nested-menu-item a {
+  color: $secondary-color;
+  max-width: 175px;
+  padding: 0 6px 6px 6px;
+}
+
+.nested-menu-item a:active,
+.nested-menu-item a:focus,
+.nested-menu-item a:hover {
+  color: $white;
+}
+
+@media only screen and (min-width: 1025px) {
+  .menu-item:nth-child(2) .nested-menu {
+    right: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 2px;
+  }
+}

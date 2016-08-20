@@ -1,0 +1,79 @@
+.typahead {
+  background-color: $white;
+  border: 1px solid $gray;
+  border-radius: 2px;
+  color: $gray;
+  font-size: $eta;
+  margin-top: 1px;
+  max-width: 400px;
+  padding: 11.5px 12px;
+  width: 150px;
+}
+
+.typahead:focus {
+  background-color: $primary-color;
+  border-color: $primary-color;
+  color: $white;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  outline: 0;
+}
+
+.bz-container {
+  background: $primary-color;
+  border: 0;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  box-shadow: 4px 8px 30px -20px rgba(0, 0, 0, 1);
+  color: $secondary-color;
+  font-size: $eta;
+  font-weight: 500;
+  line-height: $delta;
+  max-height: 120px;
+  overflow: auto;
+  position: absolute;
+  text-align: left;
+  padding: 8px;
+  visibility: visible;
+  width: 160px;
+}
+
+.bz-container.bz-hide {
+  visibility: hidden;
+}
+
+.bz-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bz-list-item {
+  margin: 0;
+  padding: 0;
+  color: $secondary-color;
+}
+
+.bz-list-loading,
+.bz-list-load-more,
+.bz-list-no-results {}
+
+.bz-list-item:hover {
+  background-color: $primary-color;
+  color: $white;
+  cursor: pointer;
+}
+
+.bz-list-item.bz-list-item-selected {
+  background-color: $primary-color;
+}
+
+.bz-list-item.bz-list-item-selected:hover {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.bz-text-match {
+  font-weight: bold;
+  text-decoration: underline;
+}

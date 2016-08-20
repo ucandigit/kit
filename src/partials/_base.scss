@@ -1,0 +1,43 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  color: $black;
+  font-family: $sans-serif;
+}
+
+* {
+  text-rendering: geometricPrecision;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+// a:active,
+// a:focus,
+// a:visited,
+// a:hover {
+//   color: $gray;
+// }
+
+hr {
+  border: 0;
+  background-color: $lightgray;
+  height: 1px;
+  margin: $zeta*1.4;
+}
+
+ul.reset {
+  margin-left: 0;
+  margin-right: 0;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ul.reset li {
+  border: 0;
+}

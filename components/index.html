@@ -1,0 +1,190 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>u can colours</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://npmcdn.com/normalize.css@4.1.1">
+<link rel="stylesheet" href="https://npmcdn.com/flexboxgrid@6.3.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,900italic,700italic,900,700,500,500italic,400italic,300italic,100italic,300">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,200,300,900,600,500">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700">
+<link rel="stylesheet" href="../dist/style.css">
+<style>.root{width: 100%; max-width: 1024px; margin: 0 auto;}</style>
+<style>article{max-width: 685px; margin: 0 auto;}</style>
+</head>
+<body>
+<header class="text-center">
+  <h1 class="brand"><a href="#">u</a></h1>
+</header>
+
+<div id="app" class="root">
+  <fullpost></fullpost>
+  <h2 class="inform">related stories</h2>
+  <br>
+  <div class="row middle-xs cards">
+    <div v-for="post in posts" class="col-xs-12 col-sm-6 col-md-4">
+      <card></card>
+    </div>
+  </div>
+</div><!-- /.root -->
+
+
+<template id="fullpost">
+  <article>
+    <header>
+      <div class="headline">
+        <header class="headline-section">
+          <ul class="chip-group bulletless">
+            <li class="chip chip-default"><a href="#">Paid In Full</a></li>
+            <li class="chip chip-default"><a href="#">Goodfellas</a></li>
+            <li class="chip chip-default"><a href="#">Made</a></li>
+            <li class="chip chip-default"><a href="#">Catch Me If You Can</a></li>
+            <li class="chip chip-default"><a href="#">Panera Bread</a></li>
+          </ul>
+          <h4 class="headline-title text-left">
+            <a class="" href="#">The One Who Flew Over the Cuckoo's Nest starring Jack Nicholson</a>
+            <a class="external-link" href="#">
+              <i class="fa fa-external-link fa-mr" aria-hidden="true"></i>
+              visit
+            </a>
+          </h4>
+        </header>
+        <footer class="headline-section">
+          <time class="monospace gray">Aug 9 2016</time>
+        </footer>
+      </div>
+    </header>
+    <section class="cover text-right rounded" style="background-image:url(../examples/bulldozer-1591746_640.jpg)"></section>
+    <section class="article-body">
+      <p class="paragraph">
+        Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
+      </p>
+      <p class="paragraph">
+        Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.
+      </p>
+      <p class="paragraph">
+        The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
+      </p>
+      <p class="paragraph">
+        You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out.
+      </p>
+      <blockquote class="blockquote">
+        <p>
+          The path of the righteous path of man is beset on all sides by the the path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.
+        </p>
+        <footer>
+          <cite>Asdf Fdsa M.D.</cite>
+        </footer>
+      </blockquote>
+      <p class="paragraph">
+        Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
+      </p>
+    </section>
+  </article>
+</template>
+
+<template id="card">
+  <div class="card border rounded">
+    <header>
+      <time>Aug 9, 2016</time>
+    </header>
+    <section class="card-media">
+      <img src="../examples/bulldozer-1591746_640.jpg">
+    </section>
+    <section>
+      <ul class="chip-group text-center">
+        <li class="chip chip-default"><a href="#">Paid In Full</a></li>
+        <li class="chip chip-default"><a href="#">Goodfellas</a></li>
+        <li class="chip chip-default"><a href="#">Made</a></li>
+        <li class="chip chip-default"><a href="#">Catch Me If You Can</a></li>
+        <li class="chip chip-default"><a href="#">Panera Bread</a></li>
+      </ul>
+    </section>
+    <footer>
+      <a class="epsilon card-title" href="articles.html">The One Who Flew Over the Cuckoo's Nest starring Jack Nicholson</a>
+    </footer>
+  </div>
+</template>
+
+
+<script src="https://npmcdn.com/vue@1.0.26/dist/vue.min.js"></script>
+<script type="text/javascript">
+
+Vue.component('card', {
+  props: {},
+
+  template: '#card',
+
+  data: function () {
+    return {}
+  }
+})
+
+Vue.component('fullpost', {
+  props: {},
+
+  template: '#fullpost',
+
+  data: function () {
+    return {}
+  }
+})
+
+new Vue({
+  el: '#app',
+  data: {
+    posts: [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+
+  },
+  methods: {}
+});
+
+</script>
+</body>
+</html>

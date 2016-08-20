@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  margin:0;
+  padding: 0;
+  width: 100%;
+
+}
+
+.root {
+  margin: 18px auto;
+  text-align: left;
+  width: 685px;
+}
+
+div.h7 {
+
+}
+
+section {
+
+}
+
+legend,
+label {
+}
+
+.black-frame {
+  padding: 12px;
+  background-color: #000;
+}
+
+.swatch {
+  padding: 8px;
+}

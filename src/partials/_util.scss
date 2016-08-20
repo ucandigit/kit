@@ -1,0 +1,45 @@
+.primary { color: $primary-color; }
+.secondary { color: $secondary-color; }
+.white { color: $white; }
+.lightgray { color: $lightgray; }
+.gray { color: $gray; }
+.darkgray { color: $darkgray; }
+.charcoal { color: $charcoal; }
+.black { color: $black; }
+.inform { color: $inform-color; }
+.warn { color: $warn-color; }
+.attention { color: $attention-color; }
+.condone { color: $condone-color; }
+
+.bg-primary { background-color: $primary-color; }
+.bg-secondary { background-color: $secondary-color; }
+.bg-white { background-color: $white; }
+.bg-lightgray { background-color: $lightgray; }
+.bg-gray { background-color: $gray; }
+.bg-darkgray { background-color: $darkgray; }
+.bg-charcoal { background-color: $charcoal; }
+.bg-black { background-color: $black; }
+.bg-inform { background-color: $inform-color; }
+.bg-warn { background-color: $warn-color; }
+.bg-attention { background-color: $attention-color; }
+.bg-condone { background-color: $condone-color; }
+
+.sans-serif { font-family: $sans-serif; }
+.serif { font-family: $serif; }
+.monospace { font-family: $monospace; }
+
+.fa-mr { margin-right: 4px; }
+
+.border { border-width: $border-width; }
+.rounded { border-radius: $border-radius; }
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.float-left { float: left; }
+
+.external-link {
+  color: $inform-color;
+  font-size: $eta;
+  white-space: nowrap;
+}
